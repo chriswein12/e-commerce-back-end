@@ -36,7 +36,7 @@ npm install express sequelize mysql2 dotenv
   - Categories
   - Tags
   - Products
-* Uses MySQL2 and Sequilize to connect to the MySQL database.
+* Uses MySQL2 and Sequelize to connect to the MySQL database.
 * Uses environmnet variables stored in a .env file for sensitive information.
   
 <br/>
