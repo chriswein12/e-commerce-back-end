@@ -5,7 +5,11 @@ const { Category, Product } = require('../../models');
 
 router.get('/', (req, res) => {
   Category.findAll()
-  .then(dbCategoryData => )
+  .then(dbCategoryData => res.json(dbCategoryData))
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 router.get('/:id', (req, res) => {
