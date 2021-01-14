@@ -19,7 +19,6 @@ npm install express sequelize mysql2 dotenv
     ```
     source db/schema.sql
     ```
-    * Note: This can also be done by running "npm start" in the command line, though database will still need to be seeded.
 * The user will then seed the database from the command line:
     ```
     npm run seed
